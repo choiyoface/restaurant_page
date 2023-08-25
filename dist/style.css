@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+/*style for homepage*/
+.tabDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(155, 122, 106);
+    font-size: 25px;
+}
+.tabDiv .tab:hover{
+    color:white;
+}
+    
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(155, 122, 106);
+    
+}
+p{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+/*style for menupage*/
+#menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*style for contactpage*/
+form{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
